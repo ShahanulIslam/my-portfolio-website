@@ -1,3 +1,6 @@
+// import img from "../../assets/img/2.png"
+
+
 const Hero = () => {
     return (
       <section
@@ -22,13 +25,13 @@ const Hero = () => {
             <button className="mt-8">Contact Me</button>
             <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
               <div className="text-gray-600 hover:text-white cursor-pointer ">
-                <ion-icon name="logo-instagram"></ion-icon>
+                <a href="https://www.instagram.com/shahanricky_01/"><ion-icon name="logo-instagram"></ion-icon></a>
               </div>
               <div className="text-gray-600 hover:text-white cursor-pointer ">
-                <ion-icon name="logo-facebook"></ion-icon>
+                <a href="https://www.facebook.com/shahanul.islam.56/"><ion-icon name="logo-facebook"></ion-icon></a>
               </div>
               <div className="text-gray-600 hover:text-white cursor-pointer ">
-                <ion-icon name="logo-linkedin"></ion-icon>
+                <a href="https://www.linkedin.com/in/shahanul-islam-ricky-b2ba0b262/"><ion-icon name="logo-linkedin"></ion-icon></a>
               </div>
               <div className="text-gray-600 hover:text-white cursor-pointer ">
                 <ion-icon name="logo-twitter"></ion-icon>
