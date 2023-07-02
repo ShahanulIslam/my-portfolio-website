@@ -1,3 +1,6 @@
+import img from "../../assets/img/2.jpg"
+import resume from "../../assets/Resume.pdf"
+
 const About = () => {
     return (
         <section id="about" className="py-10 text-white">
@@ -32,16 +35,15 @@ const About = () => {
                             </div>
                             <br />
                             <br />
-                            <a href="https://drive.google.com/file/d/1O5boWjdFIaV8RbDmmegxQBuYCdBwCEmE/view?usp=sharing" download>
+                            <a href= {resume} download>
                                 <button className="btn-primary">Download Resume</button>
                             </a>
-
                         </div>
                     </div>
                     <div className="flex-1 md:mt-0 mt-6 flex justify-center items-center">
                         <div className="lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm aboutImg ">
                             <img
-                                src="" alt=""
+                                src={img} alt=""
                                 className="w-full object-cover bg-cyan-600 rounded-xl"
                             />
                         </div>

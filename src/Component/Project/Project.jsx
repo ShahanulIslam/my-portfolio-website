@@ -39,14 +39,13 @@ const Project = () => {
                         View All
                     </a>
                 </div>
-                <div className="projects-wrapper grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+                <div className="projects-wrapper grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
                     {projects.map((project, i) => (
                         <div className="project shadow-lg" key={i}>
                             <div className="img-container">
                                 <img
                                     src={project.img}
                                     alt={project.title}
-                                    className="w-full h-64 object-cover"
                                 />
                             </div>
                             <div className="description flex justify-between my-2">
